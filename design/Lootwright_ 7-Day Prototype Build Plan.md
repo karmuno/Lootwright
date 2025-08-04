@@ -14,15 +14,15 @@ This plan delivers a fully functional Lootwright prototype in 7 days, focusing o
 \- \[ \] Initialize React \+ TypeScript project with Vite  
 \- \[ \] Configure Tailwind CSS and basic styling system  
 \- \[ \] Set up project structure (\`components/\`, \`data/\`, \`utils/\`, \`types/\`)  
-\- \[ \] Create TypeScript interfaces for all data structures  
-\- \[ \] Set up basic routing (if needed) and app shell
+\- \[ x \] Create TypeScript interfaces for all data structures  
+\- \[ x \] Set up basic routing (if needed) and app shell
 
 \*\*Afternoon (4 hours)\*\*  
 \- \[ \] Research and compile D\&D 5e treasure tables from DMG  
-\- \[ \] Create \`treasureTables.json\` with accurate CR-based treasure values  
-\- \[ \] Build \`magicItems.json\` database (focus on common/uncommon items first)  
-\- \[ \] Create \`contextRules.json\` with treasure distribution rules  
-\- \[ \] Start \`flavorText.json\` with modular descriptor templates
+\- [ x ] Create `treasureTables.json` with accurate CR-based treasure values  
+\- [ x ] Build `magicItems.json` database (focus on common/uncommon items first)  
+\- [ x ] Create `contextRules.json` with treasure distribution rules  
+\- [ x ] Start `flavorText.json` with modular descriptor templates
 
 \*\*Deliverable\*\*: Working React app with complete data foundation
 
@@ -31,8 +31,8 @@ This plan delivers a fully functional Lootwright prototype in 7 days, focusing o
 \*\*Objective\*\*: Build the heart of the treasure generation system
 
 \*\*Morning (4 hours)\*\*  
-\- \[ \] Implement \`treasureGenerator.js\` core algorithm  
-\- \[ \] Build \`contextParser.js\` for input interpretation  
+\- [ x ] Implement `treasureGenerator.js` core algorithm  
+\- [ x ] Build `contextParser.js` for input interpretation  
 \- \[ \] Create \`balanceCalculator.js\` for DMG compliance  
 \- \[ \] Write unit tests for all generation functions  
 \- \[ \] Test generation with various inputs
