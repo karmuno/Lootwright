@@ -2,6 +2,14 @@
 
 Lootwright is an intelligent treasure generation tool designed for Tabletop RPG Game Masters who need quick, balanced, and flavorful loot on-the-fly. When players go "off the map" or GMs need low-prep solutions, Lootwright generates contextually appropriate treasure parcels that feel authentic to the world while maintaining mechanical balance according to D&D 5e guidelines.
 
+## Getting Started
+
+To get started, run the following command to start the development server:
+
+```bash
+npm run dev
+```
+
 ## Key Principles
 
 1.  **Speed First:** Generate complete treasure parcels in under 3 seconds
