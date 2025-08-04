@@ -16,5 +16,20 @@
       "gp": "6d10*10000",
       "magicItems": "1d6"
     }
+  },
+  "magicItemRolls": {
+    "themes": [
+      "arcana",
+      "armaments",
+      "implements",
+      "relics"
+    ],
+    "rarityRolls": {
+      "common": "1d100",
+      "uncommon": "1d100",
+      "rare": "1d100",
+      "veryRare": "1d100",
+      "legendary": "1d100"
+    }
   }
 }

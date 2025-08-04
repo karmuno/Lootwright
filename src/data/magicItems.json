@@ -1,618 +1,595 @@
 {
-  "common": [
-    {
-      "name": "Bead of Nourishment",
-      "rarity": "common"
-    },
-    {
-      "name": "Bead of Refreshment",
-      "rarity": "common"
-    },
-    {
-      "name": "Candle of the Deep",
-      "rarity": "common"
-    },
-    {
-      "name": "Cloak of Billowing",
-      "rarity": "common"
-    },
-    {
-      "name": "Cloak of Many Fashions",
-      "rarity": "common"
-    },
-    {
-      "name": "Clothes of Mending",
-      "rarity": "common"
-    },
-    {
-      "name": "Dark Shard Amulet",
-      "rarity": "common"
-    },
-    {
-      "name": "Enduring Spellbook",
-      "rarity": "common"
-    },
-    {
-      "name": "Ersatz Eye",
-      "rarity": "common"
-    },
-    {
-      "name": "Hat of Vermin",
-      "rarity": "common"
-    },
-    {
-      "name": "Hat of Wizardry",
-      "rarity": "common"
-    },
-    {
-      "name": "Heward's Handy Spice Pouch",
-      "rarity": "common"
-    },
-    {
-      "name": "Horn of Silent Alarm",
-      "rarity": "common"
-    },
-    {
-      "name": "Instrument of Illusions",
-      "rarity": "common"
-    },
-    {
-      "name": "Instrument of Scribing",
-      "rarity": "common"
-    },
-    {
-      "name": "Lock of Trickery",
-      "rarity": "common"
-    },
-    {
-      "name": "Mystery Key",
-      "rarity": "common"
-    },
-    {
-      "name": "Orb of Direction",
-      "rarity": "common"
-    },
-    {
-      "name": "Orb of Time",
-      "rarity": "common"
-    },
-    {
-      "name": "Perfume of Bewitching",
-      "rarity": "common"
-    },
-    {
-      "name": "Pipe of Smoke Monsters",
-      "rarity": "common"
-    },
-    {
-      "name": "Potion of Climbing",
-      "rarity": "common"
-    },
-    {
-      "name": "Potion of Comprehension",
-      "rarity": "common"
-    },
-    {
-      "name": "Pot of Awakening",
-      "rarity": "common"
-    },
-    {
-      "name": "Prosthetic Limb",
-      "rarity": "common"
-    },
-    {
-      "name": "Rival Coin",
-      "rarity": "common"
-    },
-    {
-      "name": "Rope of Mending",
-      "rarity": "common"
-    },
-    {
-      "name": "Ruby of the War Mage",
-      "rarity": "common"
-    },
-    {
-      "name": "Spell Scroll (cantrip or level 1 spell)",
-      "rarity": "common"
-    },
-    {
-      "name": "Staff of Adornment",
-      "rarity": "common"
-    },
-    {
-      "name": "Staff of Birdcalls",
-      "rarity": "common"
-    },
-    {
-      "name": "Staff of Flowers",
-      "rarity": "common"
-    },
-    {
-      "name": "Talking Doll",
-      "rarity": "common"
-    },
-    {
-      "name": "Tankard of Sobriety",
-      "rarity": "common"
-    },
-    {
-      "name": "Wand of Conducting",
-      "rarity": "common"
-    },
-    {
-      "name": "Wand of Pyrotechnics",
-      "rarity": "common"
-    },
-    {
-      "name": "Armor of Gleaming",
-      "rarity": "common"
-    },
-    {
-      "name": "Cast-Off Armor",
-      "rarity": "common"
-    },
-    {
-      "name": "Dread Helm",
-      "rarity": "common"
-    },
-    {
-      "name": "Moon-Touched Sword",
-      "rarity": "common"
-    },
-    {
-      "name": "Shield of Expression",
-      "rarity": "common"
-    },
-    {
-      "name": "Silvered Weapon",
-      "rarity": "common"
-    },
-    {
-      "name": "Smoldering Armor",
-      "rarity": "common"
-    },
-    {
-      "name": "Sylvan Talon",
-      "rarity": "common"
-    },
-    {
-      "name": "Veteran's Cane",
-      "rarity": "common"
-    },
-    {
-      "name": "Walloping Ammunition",
-      "rarity": "common"
-    },
-    {
-      "name": "Ear Horn of Hearing",
-      "rarity": "common"
-    },
-    {
-      "name": "Charlatan's Die",
-      "rarity": "common"
-    },
-    {
-      "name": "Clockwork Amulet",
-      "rarity": "common"
-    },
-    {
-      "name": "Pole of Angling",
-      "rarity": "common"
-    },
-    {
-      "name": "Pole of Collapsing",
-      "rarity": "common"
-    }
-  ],
-  "uncommon": [
-    {
-      "name": "Amulet of Proof against Detection and Location",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Baba Yaga's Dancing Broom",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Bag of Holding",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Bag of Tricks",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Brooch of Shielding",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Broom of Flying",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Cap of Water Breathing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Circlet of Blasting",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Cloak of Protection",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Cloak of the Manta Ray",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Decanter of Endless Water",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Deck of Illusions",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Driftglobe",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Dust of Disappearance",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Dust of Dryness",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Dust of Sneezing and Choking",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Elemental Gem",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Enspelled Staff (cantrip or level 1 spell)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Eversmoking Bottle",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Eyes of Charming",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Eyes of Minute Seeing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Figurine of Wondrous Power (silver raven)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Gem of Brightness",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Hag Eye",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Hat of Disguise",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Headband of Intellect",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Helm of Comprehending Languages",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Helm of Telepathy",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Immovable Rod",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Lantern of Revealing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Medallion of Thoughts",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Mithral Armor",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Necklace of Adaptation",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Oil of Slipperiness",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Pearl of Power",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Periapt of Health",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Philter of Love",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Animal Friendship",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Fire Breath",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Giant Strength (hill)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Growth",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Poison",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Resistance",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Water Breathing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Quaal's Feather Token (anchor, fan, or tree)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ring of Mind Shielding",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Robe of Useful Items",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Rod of the Pact Keeper",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Rope of Climbing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Saddle of the Cavalier",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Sending Stones",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Slippers of Spider Climbing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Spell Scroll (level 2 or level 3 spell)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Staff of the Adder",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Staff of the Python",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wand of Magic Detection",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wand of Magic Missiles",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wand of Secrets",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wand of the War Mage, +1",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wand of Web",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wind Fan",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Winged Boots",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Adamantine Armor",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Adamantine Weapon",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ammunition, +1",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Bracers of Archery",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Enspelled Armor (cantrip or level 1 spell)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Enspelled Weapon (cantrip or level 1 spell)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Gauntlets of Ogre Power",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Javelin of Lightning",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Mariner's Armor",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Pugilism",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Quiver of Ehlonna",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Sentinel Shield",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Shield, +1",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Sword of Vengeance",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Trident of Fish Command",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Weapon, +1",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Weapon of Warning",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Wraps of Unarmed Power, +1",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Alchemy Jug",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Boots of Elvenkind",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Boots of Striding and Springing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Boots of the Winterlands",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Cloak of Elvenkind",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Eyes of the Eagle",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Gloves of Missile Snaring",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Gloves of Swimming and Climbing",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Gloves of Thievery",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Goggles of Night",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Nature's Mantle",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Pipes of Haunting",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Pipes of the Sewers",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Potion of Healing (greater)",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ring of Jumping",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ring of Swimming",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ring of Warmth",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Stone of Good Luck",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Keoghtom's Ointment",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Periapt of Wound Closure",
-      "rarity": "uncommon"
-    },
-    {
-      "name": "Ring of Water Walking",
-      "rarity": "uncommon"
-    }
-  ]
+  "arcana": {
+    "common": [
+      "Bead of Nourishment",
+      "Bead of Refreshment",
+      "Candle of the Deep",
+      "Cloak of Billowing",
+      "Cloak of Many Fashions",
+      "Clothes of Mending",
+      "Dark Shard Amulet",
+      "Enduring Spellbook",
+      "Ersatz Eye",
+      "Hat of Vermin",
+      "Hat of Wizardry",
+      "Heward's Handy Spice Pouch",
+      "Horn of Silent Alarm",
+      "Instrument of Illusions",
+      "Instrument of Scribing",
+      "Lock of Trickery",
+      "Mystery Key",
+      "Orb of Direction",
+      "Orb of Time",
+      "Perfume of Bewitching",
+      "Pipe of Smoke Monsters",
+      "Potion of Climbing",
+      "Potion of Comprehension",
+      "Pot of Awakening",
+      "Prosthetic Limb",
+      "Rival Coin",
+      "Rope of Mending",
+      "Ruby of the War Mage",
+      "Spell Scroll (cantrip or level 1 spell)",
+      "Staff of Adornment",
+      "Staff of Birdcalls",
+      "Staff of Flowers",
+      "Talking Doll",
+      "Tankard of Sobriety",
+      "Wand of Conducting",
+      "Wand of Pyrotechnics"
+    ],
+    "uncommon": [
+      "Amulet of Proof against Detection and Location",
+      "Baba Yaga's Dancing Broom",
+      "Bag of Holding",
+      "Bag of Tricks",
+      "Brooch of Shielding",
+      "Broom of Flying",
+      "Cap of Water Breathing",
+      "Circlet of Blasting",
+      "Cloak of Protection",
+      "Cloak of the Manta Ray",
+      "Decanter of Endless Water",
+      "Deck of Illusions",
+      "Driftglobe",
+      "Dust of Disappearance",
+      "Dust of Dryness",
+      "Dust of Sneezing and Choking",
+      "Elemental Gem",
+      "Enspelled Staff (cantrip or level 1 spell)",
+      "Eversmoking Bottle",
+      "Eyes of Charming",
+      "Eyes of Minute Seeing",
+      "Figurine of Wondrous Power (silver raven)",
+      "Gem of Brightness",
+      "Hag Eye",
+      "Hat of Disguise",
+      "Headband of Intellect",
+      "Helm of Comprehending Languages",
+      "Helm of Telepathy",
+      "Immovable Rod",
+      "Lantern of Revealing",
+      "Medallion of Thoughts",
+      "Mithral Armor",
+      "Necklace of Adaptation",
+      "Oil of Slipperiness",
+      "Pearl of Power",
+      "Periapt of Health",
+      "Philter of Love",
+      "Potion of Animal Friendship",
+      "Potion of Fire Breath",
+      "Potion of Giant Strength (hill)",
+      "Potion of Growth",
+      "Potion of Poison",
+      "Potion of Resistance",
+      "Potion of Water Breathing",
+      "Quaal's Feather Token (anchor, fan, or tree)",
+      "Ring of Mind Shielding",
+      "Robe of Useful Items",
+      "Rod of the Pact Keeper",
+      "Rope of Climbing",
+      "Saddle of the Cavalier",
+      "Sending Stones",
+      "Slippers of Spider Climbing",
+      "Spell Scroll (level 2 or level 3 spell)",
+      "Staff of the Adder",
+      "Staff of the Python",
+      "Wand of Magic Detection",
+      "Wand of Magic Missiles",
+      "Wand of Secrets",
+      "Wand of the War Mage, +1",
+      "Wand of Web",
+      "Wind Fan",
+      "Winged Boots"
+    ],
+    "rare": [
+      "Bag of Beans",
+      "Bead of Force",
+      "Bowl of Commanding Water Elementals",
+      "Bracers of Defense",
+      "Brazier of Commanding Fire Elementals",
+      "Cape of the Mountebank",
+      "Censer of Controlling Air Elementals",
+      "Chime of Opening",
+      "Cloak of Displacement",
+      "Cloak of the Bat",
+      "Cube of Force",
+      "Cube of Summoning",
+      "Daern's Instant Fortress",
+      "Enspelled Staff (level 2 or 3 spell)",
+      "Figurine of Wondrous Power (bronze griffon, ebony fly, golden lions, ivory goats, marble elephant, onyx dog, or serpentine owl)",
+      "Folding Boat",
+      "Gem of Seeing",
+      "Helm of Teleportation",
+      "Heward's Handy Haversack",
+      "Horseshoes of Speed",
+      "Ioun Stone (reserve)",
+      "Iron Bands of Bilarro",
+      "Mantle of Spell Resistance",
+      "Necklace of Fireballs",
+      "Oil of Etherealness",
+      "Portable Hole",
+      "Potion of Clairvoyance",
+      "Potion of Diminution",
+      "Potion of Gaseous Form",
+      "Potion of Giant Strength (fire)",
+      "Potion of Giant Strength (frost or stone)",
+      "Potion of Heroism",
+      "Potion of Invisibility",
+      "Potion of Invulnerability",
+      "Potion of Mind Reading",
+      "Quaal's Feather Token (bird, swan boat, or whip)",
+      "Ring of Feather Falling",
+      "Ring of Spell Storing",
+      "Ring of X-ray Vision",
+      "Robe of Eyes",
+      "Rod of Rulership",
+      "Rod of the Pact Keeper, +2",
+      "Scroll of Protection",
+      "Spell Scroll (level 4 or level 5 spell)",
+      "Staff of Charming",
+      "Staff of Swarming Insects",
+      "Staff of Withering",
+      "Stone of Controlling Earth Elementals",
+      "Wand of Binding",
+      "Wand of Fear",
+      "Wand of Fireballs",
+      "Wand of Lightning Bolts",
+      "Wand of the War Mage, +2",
+      "Wand of Wonder",
+      "Wings of Flying"
+    ],
+    "veryRare": [
+      "Amulet of the Planes",
+      "Bag of Devouring",
+      "Carpet of Flying",
+      "Cauldron of Rebirth",
+      "Cloak of Arachnida",
+      "Crystal Ball",
+      "Dancing Sword",
+      "Efreeti Bottle",
+      "Enspelled Staff (level 4 or 5 spell)",
+      "Figurine of Wondrous Power (obsidian steed)",
+      "Hat of Many Spells",
+      "Helm of Brilliance",
+      "Horseshoes of a Zephyr",
+      "Ioun Stone (absorption, fortitude, intellect, or leadership)",
+      "Manual of Golems (clay, flesh, iron, or stone)",
+      "Mirror of Life Trapping",
+      "Nolzur's Marvelous Pigments",
+      "Oil of Sharpness",
+      "Potion of Flying",
+      "Potion of Giant Strength (cloud)",
+      "Potion of Greater Invisibility",
+      "Potion of Longevity",
+      "Potion of Speed",
+      "Potion of Vitality",
+      "Ring of Regeneration",
+      "Ring of Shooting Stars",
+      "Ring of Telekinesis",
+      "Robe of Scintillating Colors",
+      "Robe of Stars",
+      "Rod of Absorption",
+      "Rod of Security",
+      "Rod of the Pact Keeper, +3",
+      "Spell Scroll (level 6, level 7, or level 8 spell)",
+      "Staff of Fire",
+      "Staff of Frost",
+      "Staff of Power",
+      "Staff of Thunder and Lightning",
+      "Tome of Clear Thought",
+      "Wand of Polymorph",
+      "Wand of the War Mage, +3"
+    ],
+    "legendary": [
+      "Apparatus of Kwalish",
+      "Cloak of Invisibility",
+      "Crystal Ball of Mind Reading",
+      "Crystal Ball of Telepathy",
+      "Crystal Ball of True Seeing",
+      "Cubic Gate",
+      "Deck of Many Things",
+      "Enspelled Staff (level 6, 7, or 8 spell)",
+      "Ioun Stone (greater absorption, mastery, or regeneration)",
+      "Iron Flask",
+      "Potion of Storm Giant Strength (storm)",
+      "Ring of Djinni Summoning",
+      "Ring of Elemental Command (air, earth, fire, or water)",
+      "Ring of Invisibility",
+      "Ring of Spell Turning",
+      "Ring of Three Wishes",
+      "Robe of the Archmagi",
+      "Scroll of Titan Summoning",
+      "Sovereign Glue",
+      "Spell Scroll (level 9 spell)",
+      "Sphere of Annihilation",
+      "Staff of the Magi",
+      "Talisman of the Sphere",
+      "Tome of the Stilled Tongue",
+      "Universal Solvent",
+      "Well of Many Worlds"
+    ]
+  },
+  "armaments": {
+    "common": [
+      "Armor of Gleaming",
+      "Cast-Off Armor",
+      "Dread Helm",
+      "Moon-Touched Sword",
+      "Shield of Expression",
+      "Silvered Weapon",
+      "Smoldering Armor",
+      "Sylvan Talon",
+      "Veteran's Cane",
+      "Walloping Ammunition"
+    ],
+    "uncommon": [
+      "Adamantine Armor",
+      "Adamantine Weapon",
+      "Ammunition, +1",
+      "Bracers of Archery",
+      "Enspelled Armor (cantrip or level 1 spell)",
+      "Enspelled Weapon (cantrip or level 1 spell)",
+      "Gauntlets of Ogre Power",
+      "Javelin of Lightning",
+      "Mariner's Armor",
+      "Mithral Armor",
+      "Potion of Giant Strength (hill)",
+      "Potion of Pugilism",
+      "Quiver of Ehlonna",
+      "Saddle of the Cavalier",
+      "Sentinel Shield",
+      "Shield, +1",
+      "Sword of Vengeance",
+      "Trident of Fish Command",
+      "Weapon, +1",
+      "Weapon of Warning",
+      "Wraps of Unarmed Power, +1"
+    ],
+    "rare": [
+      "Ammunition, +2",
+      "Armor, +1",
+      "Armor of Resistance",
+      "Armor of Vulnerability",
+      "Arrow-Catching Shield",
+      "Belt of Giant Strength (hill)",
+      "Berserker Axe",
+      "Daern's Instant Fortress",
+      "Dagger of Venom",
+      "Dragon Slayer",
+      "Elven Chain",
+      "Enspelled Armor (level 2 or 3 spell)",
+      "Enspelled Weapon (level 2 or 3 spell)",
+      "Flame Tongue",
+      "Giant Slayer",
+      "Horn of Blasting",
+      "Horn of Valhalla (brass or silver)",
+      "Ioun Stone (protection)",
+      "Mace of Disruption",
+      "Mace of Smiting",
+      "Mace of Terror",
+      "Potion of Giant Strength (fire)",
+      "Potion of Giant Strength (frost or stone)",
+      "Potion of Heroism",
+      "Potion of Invulnerability",
+      "Ring of Protection",
+      "Ring of the Ram",
+      "Shield, +2",
+      "Shield of Missile Attraction",
+      "Sun Blade",
+      "Sword of Life Stealing",
+      "Sword of Wounding",
+      "Tentacle Rod",
+      "Vicious Weapon",
+      "Weapon, +2",
+      "Wraps of Unarmed Power, +2"
+    ],
+    "veryRare": [
+      "Ammunition, +3",
+      "Ammunition of Slaying",
+      "Animated Shield",
+      "Armor, +2",
+      "Belt of Giant Strength (fire)",
+      "Belt of Giant Strength (frost or stone)",
+      "Dancing Sword",
+      "Demon Armor",
+      "Dragon Scale Mail",
+      "Dwarven Plate",
+      "Dwarven Thrower",
+      "Energy Bow",
+      "Enspelled Armor (level 4 or 5 spell)",
+      "Enspelled Weapon (level 4 or 5 spell)",
+      "Executioner's Axe",
+      "Frost Brand",
+      "Horn of Valhalla (bronze)",
+      "Ioun Stone (strength)",
+      "Lute of Thunderous Thumping",
+      "Manual of Gainful Exercise",
+      "Nine Lives Stealer",
+      "Oathbow",
+      "Oil of Sharpness",
+      "Potion of Giant Strength (cloud)",
+      "Quarterstaff of the Acrobat",
+      "Scimitar of Speed",
+      "Shield, +3",
+      "Shield of the Cavalier",
+      "Spellguard Shield",
+      "Sword of Sharpness",
+      "Thunderous Greatclub",
+      "Weapon, +3",
+      "Wraps of Unarmed Power, +3"
+    ],
+    "legendary": [
+      "Armor, +3",
+      "Armor of Invulnerability",
+      "Belt of Giant Strength (cloud)",
+      "Belt of Giant Strength (storm)",
+      "Defender",
+      "Efreeti Chain",
+      "Enspelled Armor (level 6, 7, or 8 spell)",
+      "Enspelled Weapon (level 6, 7, or 8 spell)",
+      "Hammer of Thunderbolts",
+      "Holy Avenger",
+      "Horn of Valhalla (iron)",
+      "Luck Blade",
+      "Moonblade",
+      "Plate Armor of Etherealness",
+      "Potion of Giant Strength (storm)",
+      "Rod of Lordly Might",
+      "Sword of Answering",
+      "Vorpal Sword"
+    ]
+  },
+  "implements": {
+    "common": [
+      "Bead of Nourishment",
+      "Bead of Refreshment",
+      "Boots of False Tracks",
+      "Candle of the Deep",
+      "Charlatan's Die",
+      "Cloak of Many Fashions",
+      "Clockwork Amulet",
+      "Ear Horn of Hearing",
+      "Ersatz Eye",
+      "Heward's Handy Spice Pouch",
+      "Horn of Silent Alarm",
+      "Instrument of Illusions",
+      "Instrument of Scribing",
+      "Lock of Trickery",
+      "Moon-Touched Sword",
+      "Mystery Key",
+      "Orb of Direction",
+      "Orb of Time",
+      "Perfume of Bewitching",
+      "Pipe of Smoke Monsters",
+      "Pole of Angling",
+      "Pole of Collapsing",
+      "Potion of Climbing",
+      "Potion of Comprehension",
+      "Potion of Healing",
+      "Prosthetic Limb",
+      "Rope of Mending",
+      "Staff of Birdcalls",
+      "Sylvan Talon",
+      "Talking Doll",
+      "Tankard of Sobriety",
+      "Veteran's Cane",
+      "Walloping Ammunition",
+      "Wand of Conducting",
+      "Wand of Enemy Detection",
+      "Wand of Pyrotechnics"
+    ],
+    "uncommon": [
+      "Alchemy Jug",
+      "Ammunition, +1",
+      "Bag of Holding",
+      "Boots of Elvenkind",
+      "Boots of Striding and Springing",
+      "Boots of the Winterlands",
+      "Broom of Flying",
+      "Cap of Water Breathing",
+      "Cloak of Elvenkind",
+      "Cloak of Protection",
+      "Cloak of the Manta Ray",
+      "Decanter of Endless Water",
+      "Driftglobe",
+      "Dust of Disappearance",
+      "Dust of Dryness",
+      "Dust of Sneezing and Choking",
+      "Enspelled Weapon (cantrip or level 1 spell)",
+      "Eyes of Minute Seeing",
+      "Eyes of the Eagle",
+      "Gloves of Missile Snaring",
+      "Gloves of Swimming and Climbing",
+      "Gloves of Thievery",
+      "Goggles of Night",
+      "Hag Eye",
+      "Helm of Comprehending Languages",
+      "Immovable Rod",
+      "Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)",
+      "Lantern of Revealing",
+      "Nature's Mantle",
+      "Oil of Slipperiness",
+      "Pipes of Haunting",
+      "Pipes of the Sewers",
+      "Potion of Growth",
+      "Potion of Healing (greater)",
+      "Potion of Water Breathing",
+      "Quaal's Feather Token (anchor, fan, or tree)",
+      "Ring of Jumping",
+      "Ring of Swimming",
+      "Ring of Warmth",
+      "Robe of Useful Items",
+      "Rope of Climbing",
+      "Stone of Good Luck",
+      "Wand of Secrets"
+    ],
+    "rare": [
+      "Ammunition, +2",
+      "Bag of Beans",
+      "Belt of Dwarvenkind",
+      "Boots of Levitation",
+      "Boots of Speed",
+      "Chime of Opening",
+      "Dimensional Shackles",
+      "Enspelled Weapon (level 2 or 3 spell)",
+      "Folding Boat",
+      "Glamoured Studded Leather",
+      "Heward's Handy Haversack",
+      "Horseshoes of Speed",
+      "Instrument of the Bards (Canaith mandolin or Cli lyre)",
+      "Ioun Stone (awareness)",
+      "Portable Hole",
+      "Potion of Diminution",
+      "Potion of Gaseous Form",
+      "Potion of Healing (superior)",
+      "Quaal's Feather Token (bird, swan boat, or whip)",
+      "Ring of Evasion",
+      "Ring of Free Action",
+      "Rope of Entanglement",
+      "Staff of Healing",
+      "Wand of Enemy Detection"
+    ],
+    "veryRare": [
+      "Ammunition, +3",
+      "Bag of Devouring",
+      "Carpet of Flying",
+      "Enspelled Weapon (level 4 or 5 spell)",
+      "Horseshoes of a Zephyr",
+      "Instrument of the Bards (Anstruth harp)",
+      "Ioun Stone (agility)",
+      "Lute of Thunderous Thumping",
+      "Manual of Quickness of Action",
+      "Nolzur's Marvelous Pigments",
+      "Potion of Flying",
+      "Potion of Healing (supreme)",
+      "Potion of Speed",
+      "Tome of Leadership and Influence"
+    ],
+    "legendary": [
+      "Enspelled Weapon (level 6, 7, or 8 spell)",
+      "Instrument of the Bards (Ollamh harp)",
+      "Sovereign Glue",
+      "Sphere of Annihilation",
+      "Talisman of the Sphere",
+      "Universal Solvent"
+    ]
+  },
+  "relics": {
+    "common": [
+      "Ear Horn of Hearing",
+      "Potion of Healing",
+      "Pot of Awakening",
+      "Ruby of the War Mage",
+      "Shield of Expression",
+      "Smoldering Armor",
+      "Spell Scroll (cantrip or level 1 spell)",
+      "Staff of Adornment",
+      "Staff of Flowers"
+    ],
+    "uncommon": [
+      "Enspelled Staff (cantrip or level 1 spell)",
+      "Keoghtom's Ointment",
+      "Mariner's Armor",
+      "Nature's Mantle",
+      "Pearl of Power",
+      "Periapt of Health",
+      "Periapt of Wound Closure",
+      "Potion of Animal Friendship",
+      "Potion of Healing (greater)",
+      "Potion of Resistance",
+      "Ring of Water Walking",
+      "Sending Stones",
+      "Spell Scroll (level 2 or level 3 spell)",
+      "Staff of the Adder",
+      "Staff of the Python",
+      "Wand of Magic Detection",
+      "Wand of the War Mage, +1"
+    ],
+    "rare": [
+      "Amulet of Health",
+      "Armor, +1",
+      "Bowl of Commanding Water Elementals",
+      "Brazier of Commanding Fire Elementals",
+      "Censer of Controlling Air Elementals",
+      "Elixir of Health",
+      "Enspelled Staff (level 2 or 3 spell)",
+      "Horn of Blasting",
+      "Horn of Valhalla (brass or silver)",
+      "Ioun Stone (reserve or sustenance)",
+      "Mace of Disruption",
+      "Mace of Smiting",
+      "Mace of Terror",
+      "Necklace of Prayer Beads",
+      "Periapt of Proof against Poison",
+      "Potion of Healing (superior)",
+      "Ring of Animal Influence",
+      "Ring of Resistance",
+      "Ring of Spell Storing",
+      "Scroll of Protection",
+      "Spell Scroll (level 4 or level 5 spell)",
+      "Staff of Charming",
+      "Staff of Healing",
+      "Staff of Swarming Insects",
+      "Staff of the Woodlands",
+      "Staff of Withering",
+      "Stone of Controlling Earth Elementals",
+      "Tentacle Rod",
+      "Wand of Paralysis",
+      "Wand of the War Mage, +2"
+    ],
+    "veryRare": [
+      "Armor, +2",
+      "Candle of Invocation",
+      "Cauldron of Rebirth",
+      "Enspelled Staff (level 4 or 5 spell)",
+      "Horn of Valhalla (bronze)",
+      "Ioun Stone (insight)",
+      "Manual of Bodily Health",
+      "Potion of Healing (supreme)",
+      "Potion of Vitality",
+      "Rod of Alertness",
+      "Spell Scroll (level 6, level 7, or level 8 spell)",
+      "Spirit Board",
+      "Staff of Fire",
+      "Staff of Frost",
+      "Staff of Striking",
+      "Staff of Thunder and Lightning",
+      "Tome of Understanding",
+      "Wand of the War Mage, +3"
+    ],
+    "legendary": [
+      "Armor of Invulnerability",
+      "Armor, +3",
+      "Enspelled Staff (level 6, 7, or 8 spell)",
+      "Holy Avenger",
+      "Horn of Valhalla (iron)",
+      "Rod of Resurrection",
+      "Scarab of Protection",
+      "Scroll of Titan Summoning",
+      "Spell Scroll (level 9 spell)",
+      "Talisman of Pure Good",
+      "Talisman of Ultimate Evil"
+    ]
+  }
 }
