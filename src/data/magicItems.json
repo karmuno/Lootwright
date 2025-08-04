@@ -1,0 +1,618 @@
+{
+  "common": [
+    {
+      "name": "Bead of Nourishment",
+      "rarity": "common"
+    },
+    {
+      "name": "Bead of Refreshment",
+      "rarity": "common"
+    },
+    {
+      "name": "Candle of the Deep",
+      "rarity": "common"
+    },
+    {
+      "name": "Cloak of Billowing",
+      "rarity": "common"
+    },
+    {
+      "name": "Cloak of Many Fashions",
+      "rarity": "common"
+    },
+    {
+      "name": "Clothes of Mending",
+      "rarity": "common"
+    },
+    {
+      "name": "Dark Shard Amulet",
+      "rarity": "common"
+    },
+    {
+      "name": "Enduring Spellbook",
+      "rarity": "common"
+    },
+    {
+      "name": "Ersatz Eye",
+      "rarity": "common"
+    },
+    {
+      "name": "Hat of Vermin",
+      "rarity": "common"
+    },
+    {
+      "name": "Hat of Wizardry",
+      "rarity": "common"
+    },
+    {
+      "name": "Heward's Handy Spice Pouch",
+      "rarity": "common"
+    },
+    {
+      "name": "Horn of Silent Alarm",
+      "rarity": "common"
+    },
+    {
+      "name": "Instrument of Illusions",
+      "rarity": "common"
+    },
+    {
+      "name": "Instrument of Scribing",
+      "rarity": "common"
+    },
+    {
+      "name": "Lock of Trickery",
+      "rarity": "common"
+    },
+    {
+      "name": "Mystery Key",
+      "rarity": "common"
+    },
+    {
+      "name": "Orb of Direction",
+      "rarity": "common"
+    },
+    {
+      "name": "Orb of Time",
+      "rarity": "common"
+    },
+    {
+      "name": "Perfume of Bewitching",
+      "rarity": "common"
+    },
+    {
+      "name": "Pipe of Smoke Monsters",
+      "rarity": "common"
+    },
+    {
+      "name": "Potion of Climbing",
+      "rarity": "common"
+    },
+    {
+      "name": "Potion of Comprehension",
+      "rarity": "common"
+    },
+    {
+      "name": "Pot of Awakening",
+      "rarity": "common"
+    },
+    {
+      "name": "Prosthetic Limb",
+      "rarity": "common"
+    },
+    {
+      "name": "Rival Coin",
+      "rarity": "common"
+    },
+    {
+      "name": "Rope of Mending",
+      "rarity": "common"
+    },
+    {
+      "name": "Ruby of the War Mage",
+      "rarity": "common"
+    },
+    {
+      "name": "Spell Scroll (cantrip or level 1 spell)",
+      "rarity": "common"
+    },
+    {
+      "name": "Staff of Adornment",
+      "rarity": "common"
+    },
+    {
+      "name": "Staff of Birdcalls",
+      "rarity": "common"
+    },
+    {
+      "name": "Staff of Flowers",
+      "rarity": "common"
+    },
+    {
+      "name": "Talking Doll",
+      "rarity": "common"
+    },
+    {
+      "name": "Tankard of Sobriety",
+      "rarity": "common"
+    },
+    {
+      "name": "Wand of Conducting",
+      "rarity": "common"
+    },
+    {
+      "name": "Wand of Pyrotechnics",
+      "rarity": "common"
+    },
+    {
+      "name": "Armor of Gleaming",
+      "rarity": "common"
+    },
+    {
+      "name": "Cast-Off Armor",
+      "rarity": "common"
+    },
+    {
+      "name": "Dread Helm",
+      "rarity": "common"
+    },
+    {
+      "name": "Moon-Touched Sword",
+      "rarity": "common"
+    },
+    {
+      "name": "Shield of Expression",
+      "rarity": "common"
+    },
+    {
+      "name": "Silvered Weapon",
+      "rarity": "common"
+    },
+    {
+      "name": "Smoldering Armor",
+      "rarity": "common"
+    },
+    {
+      "name": "Sylvan Talon",
+      "rarity": "common"
+    },
+    {
+      "name": "Veteran's Cane",
+      "rarity": "common"
+    },
+    {
+      "name": "Walloping Ammunition",
+      "rarity": "common"
+    },
+    {
+      "name": "Ear Horn of Hearing",
+      "rarity": "common"
+    },
+    {
+      "name": "Charlatan's Die",
+      "rarity": "common"
+    },
+    {
+      "name": "Clockwork Amulet",
+      "rarity": "common"
+    },
+    {
+      "name": "Pole of Angling",
+      "rarity": "common"
+    },
+    {
+      "name": "Pole of Collapsing",
+      "rarity": "common"
+    }
+  ],
+  "uncommon": [
+    {
+      "name": "Amulet of Proof against Detection and Location",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Baba Yaga's Dancing Broom",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Bag of Holding",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Bag of Tricks",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Brooch of Shielding",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Broom of Flying",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Cap of Water Breathing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Circlet of Blasting",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Cloak of Protection",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Cloak of the Manta Ray",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Decanter of Endless Water",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Deck of Illusions",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Driftglobe",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Dust of Disappearance",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Dust of Dryness",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Dust of Sneezing and Choking",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Elemental Gem",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Enspelled Staff (cantrip or level 1 spell)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eversmoking Bottle",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eyes of Charming",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eyes of Minute Seeing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Figurine of Wondrous Power (silver raven)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gem of Brightness",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Hag Eye",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Hat of Disguise",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Headband of Intellect",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Helm of Comprehending Languages",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Helm of Telepathy",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Immovable Rod",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Lantern of Revealing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Medallion of Thoughts",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Mithral Armor",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Necklace of Adaptation",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Oil of Slipperiness",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Pearl of Power",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Periapt of Health",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Philter of Love",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Animal Friendship",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Fire Breath",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Giant Strength (hill)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Growth",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Poison",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Resistance",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Water Breathing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Quaal's Feather Token (anchor, fan, or tree)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ring of Mind Shielding",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Robe of Useful Items",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Rod of the Pact Keeper",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Rope of Climbing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Saddle of the Cavalier",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Sending Stones",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Slippers of Spider Climbing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Spell Scroll (level 2 or level 3 spell)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Staff of the Adder",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Staff of the Python",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wand of Magic Detection",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wand of Magic Missiles",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wand of Secrets",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wand of the War Mage, +1",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wand of Web",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wind Fan",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Winged Boots",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Adamantine Armor",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Adamantine Weapon",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ammunition, +1",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Bracers of Archery",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Enspelled Armor (cantrip or level 1 spell)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Enspelled Weapon (cantrip or level 1 spell)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gauntlets of Ogre Power",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Javelin of Lightning",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Mariner's Armor",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Pugilism",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Quiver of Ehlonna",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Sentinel Shield",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Shield, +1",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Sword of Vengeance",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Trident of Fish Command",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Weapon, +1",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Weapon of Warning",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wraps of Unarmed Power, +1",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Alchemy Jug",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Boots of Elvenkind",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Boots of Striding and Springing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Boots of the Winterlands",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Cloak of Elvenkind",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eyes of the Eagle",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gloves of Missile Snaring",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gloves of Swimming and Climbing",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gloves of Thievery",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Goggles of Night",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Nature's Mantle",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Pipes of Haunting",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Pipes of the Sewers",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Potion of Healing (greater)",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ring of Jumping",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ring of Swimming",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ring of Warmth",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Stone of Good Luck",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Keoghtom's Ointment",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Periapt of Wound Closure",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ring of Water Walking",
+      "rarity": "uncommon"
+    }
+  ]
+}
