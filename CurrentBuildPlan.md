@@ -11,8 +11,17 @@ This document outlines the immediate changes requested by the user.
 - [x] Locate Player's Handbook data in `/design` folder.
 - [x] Modify `generateItems` in `src/utils/treasureGenerator.ts` to select actual mundane items.
 
+
 ## Task 3: Develop Comprehensive Documentation
 - [x] Create a new comprehensive `README.md` file.
 - [x] Create a `docs/Architecture.md` file.
 - [x] Create a `docs/DataSchema.md` file.
 - [x] Create a `docs/ContributionGuide.md` file.
+
+## Task 4: Make Types a Global Namespace
+- [x] Refactored `src/types/index.ts` to define all interfaces within a `Types` namespace.
+- [x] Removed redundant `src/types/TreasureTableEntry.ts`.
+- [x] Updated `tsconfig.json` to include `src/types/index.ts` for global type recognition.
+- [x] Renamed `src/types/index.ts` to `src/types/global.d.ts`.
+- [x] Updated `tsconfig.app.json` and `tsconfig.node.json` to include `"composite": true`.
+- [x] Updated `tsconfig.json` to include `src/types/global.d.ts` in the `include` array.
