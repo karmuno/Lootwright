@@ -24,6 +24,29 @@ function getContextDistribution(context: string) {
   return contextRules.contextTypes.generic.distribution;
 }
 
+function fixArticles(text: string): string {
+    const words = text.split(' ');
+    for (let i = 0; i < words.length - 1; i++) {
+        const currentWord = words[i];
+        const nextWord = words[i + 1];
+
+        if (currentWord.toLowerCase() === 'a' || currentWord.toLowerCase() === 'an') {
+            if (nextWord) {
+                const firstChar = nextWord[0].toLowerCase();
+                const startsWithVowel = ['a', 'e', 'i', 'o', 'u'].includes(firstChar);
+                if (startsWithVowel) {
+                    if (currentWord === 'a') words[i] = 'an';
+                    if (currentWord === 'A') words[i] = 'An';
+                } else {
+                    if (currentWord === 'an') words[i] = 'a';
+                    if (currentWord === 'An') words[i] = 'A';
+                }
+            }
+        }
+    }
+    return words.join(' ');
+}
+
 function generateCurrency(baseValue: number, level: number) {
   let pp = 0;
   let gp = 0;
@@ -105,11 +128,11 @@ function generateCurrency(baseValue: number, level: number) {
     const kingdomEra = getRandomElement(flavorText.currency.kingdom_era);
     const contextDescriptor = getRandomElement(flavorText.currency.context_descriptor);
 
-    flavor = currencyTemplate
+    flavor = fixArticles(currencyTemplate
       .replace('{amount}', currencyParts.join(', '))
       .replace('{currency_type}', '') // Not used with multiple types
       .replace('{kingdom_era}', kingdomEra)
-      .replace('{context_descriptor}', contextDescriptor);
+      .replace('{context_descriptor}', contextDescriptor));
   } else {
     flavor = 'No coins found.';
   }
@@ -137,14 +160,14 @@ function generateItems(baseValue: number, context: string) {
     const wearTear = getRandomElement(flavorText.mundaneItems.wear_tear);
     const ageDescriptor = getRandomElement(flavorText.mundaneItems.age_descriptor);
 
-    const flavor = template
+    const flavor = fixArticles(template
       .replace('{item_type}', itemType)
       .replace('{quality}', quality)
       .replace('{material}', material)
       .replace('{part_descriptor}', partDescriptor)
       .replace('{cultural_origin}', culturalOrigin)
       .replace('{wear_tear}', wearTear)
-      .replace('{age_descriptor}', ageDescriptor);
+      .replace('{age_descriptor}', ageDescriptor));
 
     items.push({
       name: itemType,
