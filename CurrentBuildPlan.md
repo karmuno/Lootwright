@@ -10,3 +10,9 @@ This document outlines the immediate changes requested by the user.
 ## Task 2: Populate Mundane Items from Player's Handbook
 - [x] Locate Player's Handbook data in `/design` folder.
 - [x] Modify `generateItems` in `src/utils/treasureGenerator.ts` to select actual mundane items.
+
+## Task 3: Develop Comprehensive Documentation
+- [x] Create a new comprehensive `README.md` file.
+- [x] Create a `docs/Architecture.md` file.
+- [x] Create a `docs/DataSchema.md` file.
+- [x] Create a `docs/ContributionGuide.md` file.
