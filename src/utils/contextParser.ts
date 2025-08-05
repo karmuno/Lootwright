@@ -1,4 +1,4 @@
-import contextRulesData from '../data/contextRules.json';
+import * as contextRulesData from '../data/contextRules.json';
 import { ContextRules } from '../types';
 
 const contextRules: ContextRules = contextRulesData;

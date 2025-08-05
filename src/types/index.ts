@@ -8,11 +8,17 @@ export interface ContextRule {
   };
 }
 
+// Dummy runtime export to force Vite to include the interface definition
+export const ContextRule: ContextRule = {} as ContextRule;
+
 export interface ContextRules {
   contextTypes: {
     [key: string]: ContextRule;
   };
 }
+
+// Dummy runtime export to force Vite to include the interface definition
+export const ContextRules: ContextRules = {} as ContextRules;
 
 export interface FlavorText {
   currency: {
@@ -42,6 +48,9 @@ export interface FlavorText {
   };
 }
 
+// Dummy runtime export to force Vite to include the interface definition
+export const FlavorText: FlavorText = {} as FlavorText;
+
 export interface MagicItem {
   name: string;
   rarity: string;
@@ -50,25 +59,20 @@ export interface MagicItem {
   // Add other properties as needed based on magicItems.json structure
 }
 
-export interface TreasureTableEntry {
-  cr_range: string;
-  currency: {
-    cp?: string;
-    sp?: string;
-    gp?: string;
-    pp?: string;
-  };
-  gems?: string[];
-  art_objects?: string[];
-  magic_items?: {
-    rarity: string;
-    roll: string;
-  }[];
-}
+// Dummy runtime export to force Vite to include the interface definition
+export const MagicItem: MagicItem = {} as MagicItem;
 
 export interface TreasureTables {
   individual_treasure: {
-    [key: string]: TreasureTableEntry;
+    [key: string]: any; // Will be TreasureTableEntry after import fix
   };
   // Add other treasure table types as needed
 }
+
+// Dummy runtime export to force Vite to include the interface definition
+export const TreasureTables: TreasureTables = {} as TreasureTables;
+
+// Dummy export to ensure this file is treated as a module with runtime content by Vite
+export const __dummy = true;
+
+export * from './TreasureTableEntry';
