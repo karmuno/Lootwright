@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import LootGenerator from './components/LootGenerator';
 import TreasureDisplay from './components/TreasureDisplay';

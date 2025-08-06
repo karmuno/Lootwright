@@ -1,8 +1,7 @@
 import treasureTablesData from '../data/treasureTables.json';
-import { TreasureTables } from '../types/index.ts';
-import { TreasureTableEntry } from '../types/TreasureTableEntry.ts';
+import { TreasureTables, TreasureTableEntry } from '../types/index.ts';
 
-const treasureTables: Types.TreasureTables = treasureTablesData;
+const treasureTables: TreasureTables = treasureTablesData;
 
 export function getTreasureValue(level: number, size: number): number {
   // Placeholder: Implement actual DMG-compliant gold piece value calculation
@@ -25,7 +24,7 @@ export function getMagicItemRarityDistribution(level: number): { [rarity: string
   }
 }
 
-export function getTreasureTable(cr_range: string): Types.TreasureTableEntry | undefined {
+export function getTreasureTable(cr_range: string): TreasureTableEntry | undefined {
   // This function assumes cr_range matches keys in individual_treasure
   return treasureTables.individual_treasure[cr_range];
 }

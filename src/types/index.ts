@@ -66,6 +66,12 @@ export interface TreasureTables {
   individual_treasure: {
     [key: string]: any; // Will be TreasureTableEntry after import fix
   };
+  treasureHoard: {
+    [key: string]: any;
+  };
+  magicItemRolls: {
+    [key: string]: any;
+  };
   // Add other treasure table types as needed
 }
 

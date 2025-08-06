@@ -1,5 +1,4 @@
 import { ContextRules, FlavorText, TreasureTables, MagicItem } from '../types/index.ts';
-import { TreasureTableEntry } from '../types/TreasureTableEntry.ts';
 import * as contextRulesData from '../data/contextRules.json';
 import * as treasureTablesData from '../data/treasureTables.json';
 import * as magicItemsData from '../data/magicItems.json';
@@ -10,7 +9,7 @@ import { getMagicItemRarityDistribution } from './balanceCalculator';
 
 const contextRules: ContextRules = contextRulesData;
 const treasureTables: TreasureTables = treasureTablesData;
-const magicItems: MagicItem[] = magicItemsData;
+const magicItems: { [key: string]: MagicItem[] } = magicItemsData;
 const flavorText: FlavorText = flavorTextData;
 const mundaneItems: string[] = (mundaneItemsData as any).default;
 
@@ -146,7 +145,7 @@ function generateCurrency(baseValue: number, level: number) {
   };
 }
 
-function generateItems(baseValue: number, context: string) {
+function generateItems() {
   const items: { name: string; quantity: number; flavor: string }[] = [];
   const numItems = Math.floor(Math.random() * 3) + 1; // Generate 1 to 3 items
 
@@ -203,8 +202,8 @@ function generateMagicItems(level: number, magicRatio: number) {
     }
 
     if (selectedRarity) {
-      const availableItems = magicItems.filter(item => item.rarity === selectedRarity);
-      if (availableItems.length > 0) {
+      const availableItems = magicItems[selectedRarity];
+      if (availableItems && availableItems.length > 0) {
         const chosenItem = getRandomElement(availableItems);
 
         const template = getRandomElement(flavorText.magicItems.templates);

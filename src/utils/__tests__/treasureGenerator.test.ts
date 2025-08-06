@@ -1,6 +1,4 @@
 import { generateTreasure } from '../treasureGenerator';
-import { classifyContext } from '../contextParser';
-import { getTreasureValue, getMagicItemRarityDistribution } from '../balanceCalculator';
 
 describe('generateTreasure integration', () => {
   it('should generate treasure with expected structure for a generic context', () => {
