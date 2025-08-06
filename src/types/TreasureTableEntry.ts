@@ -1,6 +1,18 @@
 export interface TreasureTableEntry {
-  gp: string;
-  magicItems: string;
+  cr_range: string;
+  currency: {
+    cp?: string;
+    sp?: string;
+    gp?: string;
+    pp?: string;
+  };
+  gems?: string[];
+  art_objects?: string[];
+  magic_items?: {
+    rarity: string;
+    roll: string;
+  }[];
 }
 
-export const __dummyTreasureTableEntry = true;
+// Dummy runtime export to force Vite to include the interface definition
+export const TreasureTableEntry: TreasureTableEntry = {} as TreasureTableEntry;

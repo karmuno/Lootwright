@@ -11,7 +11,7 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "composite": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
 
