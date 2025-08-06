@@ -1,0 +1,141 @@
+{
+  "currency": {
+    "templates": [
+      "You find {amount} in a {kingdom_era} pouch, bearing the mark of a {context_descriptor} merchant.",
+      "A small pile of {amount} lies scattered on the ground, remnants of a {kingdom_era} skirmish.",
+      "Tucked away in a hidden alcove, you discover {amount}, gleaming faintly in the {context_descriptor} light."
+    ],
+    "kingdom_era": [
+      "ancient",
+      "forgotten",
+      "prosperous",
+      "ruined",
+      "newly established"
+    ],
+    "context_descriptor": [
+      "weary",
+      "cunning",
+      "honorable",
+      "desperate",
+      "ambitious"
+    ]
+  },
+  "mundaneItems": {
+    "templates": [
+      "A {quality} {item_type}, made of {material} with a {part_descriptor}. It has a {cultural_origin} design and shows {wear_tear}. It appears to be {age_descriptor}.",
+      "You discover a {quality} {item_type}, crafted from {material}. Its {part_descriptor} is intricately designed, hinting at its {cultural_origin} origins. It is {wear_tear} and looks {age_descriptor}.",
+      "Lying amidst the rubble is a {quality} {item_type} of {material}, featuring a {part_descriptor}. Its {cultural_origin} craftsmanship is evident, despite its {wear_tear} condition and {age_descriptor} appearance."
+    ],
+    "quality": [
+      "masterwork",
+      "well-crafted",
+      "simple",
+      "sturdy",
+      "ornate",
+      "crude"
+    ],
+    "material": [
+      "steel",
+      "iron",
+      "wood",
+      "leather",
+      "bronze",
+      "silver"
+    ],
+    "part_descriptor": [
+      "polished handle",
+      "ornate hilt",
+      "sharp edge",
+      "dull blade",
+      "reinforced buckle",
+      "intricate carvings"
+    ],
+    "cultural_origin": [
+      "Elven",
+      "Dwarven",
+      "Human",
+      "Orcish",
+      "Goblin",
+      "Gnomish"
+    ],
+    "wear_tear": [
+      "some scratches",
+      "heavy rust",
+      "a few dents",
+      "surprisingly well-preserved",
+      "worn from use",
+      "brand new"
+    ],
+    "age_descriptor": [
+      "ancient",
+      "old",
+      "new",
+      "recently created",
+      "from a bygone era",
+      "timeless"
+    ]
+  },
+  "magicItems": {
+    "templates": [
+      "The {item_name}, a {rarity} {item_type}, was {creation_story_verb} by a {creator_type} during the {historical_event}. Its previous owner, a {previous_owner_archetype}, noted its {quirk_descriptor} quirk. It was discovered in a {creation_location} and is activated by a {activation_quirk}.",
+      "A {rarity} {item_type} known as the {item_name}, it was {creation_story_verb} by a {creator_type} in the {creation_location} during the {historical_event}. Its {quirk_descriptor} nature was often remarked upon by its {previous_owner_archetype} owner. It is activated by a {activation_quirk}.",
+      "Found in a {creation_location}, the {item_name} is a {rarity} {item_type} that was {creation_story_verb} by a {creator_type} during the {historical_event}. Its {previous_owner_archetype} owner found its {quirk_descriptor} quirk to be quite unusual. It is activated by a {activation_quirk}."
+    ],
+    "creation_story_verb": [
+      "forged",
+      "enchanted",
+      "blessed",
+      "cursed",
+      "crafted",
+      "discovered"
+    ],
+    "creator_type": [
+      "ancient wizard",
+      "dwarven smith",
+      "elven enchanter",
+      "goblin tinkerer",
+      "celestial being",
+      "demonic entity"
+    ],
+    "historical_event": [
+      "War of the Five Armies",
+      "founding of the kingdom",
+      "Great Cataclysm",
+      "Age of Heroes",
+      "Reign of the Dark Lord",
+      "Era of Peace"
+    ],
+    "previous_owner_archetype": [
+      "brave knight",
+      "cunning rogue",
+      "wise sage",
+      "greedy merchant",
+      "power-hungry sorcerer",
+      "humble farmer"
+    ],
+    "quirk_descriptor": [
+      "unusual",
+      "peculiar",
+      "strange",
+      "mysterious",
+      "subtle",
+      "obvious"
+    ],
+    "creation_location": [
+      "hidden dungeon",
+      "ancient ruin",
+      "bustling city",
+      "secluded forest",
+      "volcanic forge",
+      "celestial realm"
+    ],
+    "activation_quirk": [
+      "a whispered word",
+      "a drop of blood",
+      "a specific gesture",
+      "moonlight",
+      "a strong emotion",
+      "a forgotten command"
+    ]
+  }
+}

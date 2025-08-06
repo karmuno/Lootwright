@@ -1,35 +1,60 @@
 {
-  "treasureHoard": {
+  "individual_treasure": {
     "0-4": {
-      "gp": "2d4*100",
-      "magicItems": "1d4-1"
+      "gp": "2d4 * 10",
+      "magicItems": ""
     },
     "5-10": {
-      "gp": "8d10*100",
-      "magicItems": "1d3"
+      "gp": "4d6 * 10",
+      "magicItems": ""
     },
     "11-16": {
-      "gp": "8d8*1000",
-      "magicItems": "1d4"
+      "gp": "1d6 * 100",
+      "magicItems": ""
     },
     "17+": {
-      "gp": "6d10*10000",
-      "magicItems": "1d6"
+      "gp": "2d6 * 100",
+      "magicItems": ""
+    }
+  },
+  "treasureHoard": {
+    "0-4": {
+      "gp": "",
+      "magicItems": ""
+    },
+    "5-10": {
+      "gp": "",
+      "magicItems": ""
+    },
+    "11-16": {
+      "gp": "",
+      "magicItems": ""
+    },
+    "17+": {
+      "gp": "",
+      "magicItems": ""
     }
   },
   "magicItemRolls": {
-    "themes": [
-      "arcana",
-      "armaments",
-      "implements",
-      "relics"
+    "common": [
+      "Potion of Healing",
+      "Spell Scroll (Cantrip)"
     ],
-    "rarityRolls": {
-      "common": "1d100",
-      "uncommon": "1d100",
-      "rare": "1d100",
-      "veryRare": "1d100",
-      "legendary": "1d100"
-    }
+    "uncommon": [
+      "Potion of Greater Healing",
+      "Bag of Holding"
+    ],
+    "rare": [
+      "Potion of Superior Healing",
+      "Cape of the Mountebank"
+    ],
+    "very rare": [
+      "Potion of Supreme Healing",
+      "Manual of Golems"
+    ],
+    "legendary": [
+      "Holy Avenger",
+      "Vorpal Sword"
+    ]
   }
 }

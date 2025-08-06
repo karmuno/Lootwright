@@ -1,0 +1,13 @@
+{
+  "contextTypes": {
+    "generic": {
+      "description": "General context for any situation.",
+      "keywords": ["generic", "default"],
+      "distribution": {
+        "coinRatio": 0.6,
+        "itemRatio": 0.3,
+        "magicRatio": 0.1
+      }
+    }
+  }
+}
