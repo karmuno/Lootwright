@@ -35,7 +35,7 @@ export interface FlavorText {
     wear_tear: string[];
     age_descriptor: string[];
   };
-  magicItems: {
+    magicItems: {
     templates: string[];
     rarity: string[];
     creation_story_verb: string[];

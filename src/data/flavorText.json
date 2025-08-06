@@ -81,6 +81,13 @@
       "A {rarity} {item_type} known as the {item_name}, it was {creation_story_verb} by a {creator_type} in the {creation_location} during the {historical_event}. Its {quirk_descriptor} nature was often remarked upon by its {previous_owner_archetype} owner. It is activated by a {activation_quirk}.",
       "Found in a {creation_location}, the {item_name} is a {rarity} {item_type} that was {creation_story_verb} by a {creator_type} during the {historical_event}. Its {previous_owner_archetype} owner found its {quirk_descriptor} quirk to be quite unusual. It is activated by a {activation_quirk}."
     ],
+    "rarity": [
+      "common",
+      "uncommon",
+      "rare",
+      "very rare",
+      "legendary"
+    ],
     "creation_story_verb": [
       "forged",
       "enchanted",

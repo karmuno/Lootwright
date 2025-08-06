@@ -1,7 +1,5 @@
-import { ContextRules, FlavorText, TreasureTables, MagicItem } from '../types/index.ts';
-import { TreasureTableEntry } from '../types/TreasureTableEntry.ts';
+import { ContextRules, FlavorText } from '../types/index.ts';
 import * as contextRulesData from '../data/contextRules.json';
-import * as treasureTablesData from '../data/treasureTables.json';
 import * as magicItemsData from '../data/magicItems.json';
 import * as flavorTextData from '../data/flavorText.json';
 import * as mundaneItemsData from '../data/mundaneItems.json';
@@ -9,8 +7,7 @@ import { getRandomElement } from './randomUtils';
 import { getMagicItemRarityDistribution } from './balanceCalculator';
 
 const contextRules: ContextRules = contextRulesData;
-const treasureTables: TreasureTables = treasureTablesData;
-const magicItems: { [key: string]: MagicItem[] } = magicItemsData;
+const magicItems: any = magicItemsData;
 const flavorText: FlavorText = flavorTextData;
 const mundaneItems: string[] = (mundaneItemsData as any).default;
 
@@ -146,7 +143,7 @@ function generateCurrency(baseValue: number, level: number) {
   };
 }
 
-function generateItems(baseValue: number, context: string) {
+function generateItems() {
   const items: { name: string; quantity: number; flavor: string }[] = [];
   const numItems = Math.floor(Math.random() * 3) + 1; // Generate 1 to 3 items
 
@@ -205,7 +202,7 @@ function generateMagicItems(level: number, magicRatio: number) {
     if (selectedRarity) {
       const availableItems = magicItems[selectedRarity];
       if (availableItems && availableItems.length > 0) {
-        const chosenItem = getRandomElement(availableItems);
+        const chosenItem: any = getRandomElement(availableItems);
 
         const template = getRandomElement(flavorText.magicItems.templates);
         const creationStoryVerb = getRandomElement(flavorText.magicItems.creation_story_verb);
@@ -245,7 +242,7 @@ export function generateTreasure(level: number, size: number, context: string) {
   const distribution = getContextDistribution(context);
 
   const currency = generateCurrency(baseValue * distribution.coinRatio, level);
-  const items = generateItems(baseValue * distribution.itemRatio, context);
+  const items = generateItems();
   const magicItems = generateMagicItems(level, distribution.magicRatio);
 
   return {
