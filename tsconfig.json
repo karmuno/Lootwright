@@ -3,6 +3,9 @@
     "resolveJsonModule": true
   },
   "files": [],
+  "include": [
+    "src/types/global.d.ts"
+  ],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
