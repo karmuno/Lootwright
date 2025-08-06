@@ -1,5 +1,6 @@
 import treasureTablesData from '../data/treasureTables.json';
-import { TreasureTables, TreasureTableEntry } from '../types/index.ts';
+import { TreasureTables } from '../types/index.ts';
+import { TreasureTableEntry } from '../types/TreasureTableEntry';
 
 const treasureTables: TreasureTables = treasureTablesData;
 
