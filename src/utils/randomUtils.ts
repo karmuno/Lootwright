@@ -1,4 +1,7 @@
-export function getRandomElement<T>(arr: T[]): T {
-  const randomIndex = Math.floor(Math.random() * arr.length);
-  return arr[randomIndex];
+export function getRandomElement<T>(array: T[]): T {
+  if (!array || array.length === 0) {
+    throw new Error("Array cannot be empty.");
+  }
+  const randomIndex = Math.floor(Math.random() * array.length);
+  return array[randomIndex];
 }
