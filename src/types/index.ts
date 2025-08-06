@@ -78,7 +78,9 @@ export interface TreasureTables {
 // Dummy runtime export to force Vite to include the interface definition
 export const TreasureTables: TreasureTables = {} as TreasureTables;
 
-// Dummy export to ensure this file is treated as a module with runtime content by Vite
+import { TreasureTableEntry } from './TreasureTableEntry';
+
+// Dummy runtime export to ensure this file is treated as a module with runtime content by Vite
 export const __dummy = true;
 
-export * from './TreasureTableEntry';
+export { TreasureTableEntry };
